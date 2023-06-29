@@ -5,3 +5,11 @@ This repository contains all the projects that i made while learning html. you c
 * [Blog website](http://hello.com "blog website using html")
 * [Table application](http://hello.com " HTML Tables")
 * [Login-Registration form](http://hello.com "Html Forms")
+
+ You should know basic Html for making these projects . About tags like heading tag, paragaraph tags, image tag , Media tags, text formating tags , semantic tags (to structure the code ), meta tags  and all the basic tags .should know how to create tables , links , forms ,lists. should know some basic attributes like rel,href,alt,type etc.
+#### Special symbols and Entities that i used in these projects.
+- `&nbsp;` -> used for adding Non breaking space.
+- `&apos;`  -> single quotation mark (apostrophe).
+- `&emsp;` -> for adding 4 Non breaking space.
+- `&ensp;` -> for adding 2 Non breaking space.
+and there are many more other entities , explore them as per your requirements .
