@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="description" content="This is the login-registration form">
+   <meta name="keywords" content="html,html5,forms,login page">
+   <meta name="author" content="Anjali">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Registration</title>
+</head>
+<body>
+    <h2>Have not registered? <a href="#registration">REGISTER</a> now </h2>
+   <!-- login form -->
+    <form>
+       
+           
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="Password-l" required>
+         
+           <button type="submit"><img src="./BLOG1/static/logo.jpg" alt="logo image" height="11" width="50">&nbsp; Login</button>
+       
+        </form>
+    <!-- link to see the  blog -->
+    <a href="./BLog/index.htm"><h3>Flyo Blogs</h3></a>
+
+    <!-- image of the website  -->
+    <section class="web-img">
+    <img src="./BLOG1/static/header-img.jpg" alt="website image" height="250" width="100%">
+    </section>
+
+    <section id="registration">
+       <u> <h2>REGISTRATION</h2></u>
+        <form action="">
+            <div>
+            <label for="fname">First Name:</label>&emsp;
+            <input type="text" id="fname" name="firstName" required>
+        </div>
+        <div>
+            <label for="Lname">Last Name:</label>&emsp;
+            <input type="text" id="Lname" name="lastName">
+        </div>
+        <div>
+            &emsp; &emsp; &emsp; &emsp; &ensp;  <label for="fhnumber">Flat No./House No.</label>
+            <input type="number" id="fhnumber" name="flat-house-number" required>
+        </div>
+        <div>
+            <label for="address">Current Address:</label>&ensp;&nbsp;
+            <label >Locality</label>&emsp;&emsp;&ensp;
+            <input type="text" id="address" name="Address" required>
+        </div>
+        <div>
+            &emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&nbsp;<label for="city">City</label>
+            &emsp;&emsp;&emsp;&emsp;<input type="text" id="city" name="city" required>
+            
+        </div>
+        <div><br>
+           <strong><span>Is Current address and permanent adress same?</span></strong>
+            <input type="radio" name="permanent-adress" value="yes" checked>Yes
+            <input type="radio" name="permanent-adress" value="No">No
+
+        </div><br>
+        <div>
+            <label for="email">Email:</label>&emsp; &emsp;
+            <input type="email" name="email" id="email" required placeholder="abc@gmail.com">
+        </div>
+        <div>
+            <label for="password">Password:</label> &ensp;&nbsp;
+            <input type="password" name="password-r" id="password" required>
+        </div><br>
+        <div>
+            <input type="submit" value="Register">
+        </div>
+        </form>
+
+    </section>
+
+</body>
+</html>
